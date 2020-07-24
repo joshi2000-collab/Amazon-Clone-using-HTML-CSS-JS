@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+body {
+    background-color: #fff;
+    margin: 0;
+    font-family: oxygen;
+}
+.search{
+    color:#aaa;
+    background:white;
+    display:flex;
+    border:1px solid #aaa;
+    margin:4px 8px;
+    border-radius:4px;
+    padding:6px 12px;
+    font-size:1.2em;
+}
+.search input{
+    width:90%;
+    padding:0 8px;
+    border: none;
+    font-size:1em;
+}
+.search input:focus{
+    outline: none;   
+}
+.search .fa-camera{
+    border-left:1px solid #aaa;
+    padding-left:8px;
+}
+.container1{
+    background-color: #95e0d9;
+    border-bottom: 4px solid #9fa19f;
+}
+.container2{
+    border-bottom: 4px solid #9fa19f;
+    background-color: #e3e8e3;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.container2 img{
+    padding: 8px 4px 4px 6px;
+}
+.container2 span{
+    font-size: 12px;
+    padding: 0 8px 8px 8px;
+}
+.container3{
+    border-bottom: 4px solid #bbb;
+}
+.swiper-container {
+      width: 100%;
+      height: 130px;
+      border-bottom: 4px solid #bbb;
+}
+.text1{
+    padding: 8px;
+    font-size: 1.3em;
+    font-family: 'oxygen';
+}
+.container4 button{
+    margin: 6px;
+}
+.container4{
+    border-bottom: 6px solid #bbb;
+    background-color: #e3e8e3;
+}
+.sign_in{
+    padding: 1em 0;
+    width: 80%;
+    left:50%;
+    position:relative;
+    transform:translateX(-50%);
+    background-color: orange;
+    border: transparent;
+    border-radius: 2px;
+}
+.create{
+    color: #2449d1;
+    background: transparent;
+    border: none;
+}
+.create:hover{
+    
+}
+.container5{
+    border-bottom: 6px solid #bbb;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    overflow-x: scroll;
+}
+.container5 img{
+    width: 95%;
+    height: auto;
+    padding: 6px;
+}
+.container5 span{
+    font-size: 12px;
+    padding: 0 8px 8px 20px;
+}
+.container6{
+    border-bottom: 6px solid #bbb;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 8px;
+}
+.container6 img{
+    width: 90%;
+    padding-left: 8px;
+}
+.container7{
+    border-bottom: 4px solid #bbb;
+    background-color: white;
+    display: flex;
+    overflow-x: scroll;
+}
+.container7 img{
+    margin: 6px;
+    padding: 6px;
+}
+.container8{
+    border-bottom: 4px solid #bbb;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 8px;
+}
+.container8 img{
+    width: 90%;
+    padding-left: 8px;
+}
+.container9{
+    border-bottom: 4px solid #bbb;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 8px;
+}
+.container9 img{
+    width: 90%;
+    padding-left: 8px;
+    
+}
+.container10{
+    border-bottom: 6px solid #bbb;
+    display: flex;
+    overflow-x: scroll;
+}
+.swiper-slide img{
+    width:100%;
+    height:auto;
+}
+.bullet{
+    background:#fff;
+    opacity:1;
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background:#fff;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #000;
+  display: block;
+  transition: 0.1s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  background-color: #ddd;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.menu{
+    top:2px;
+    position:absolute;
+    padding:12px;
+    color:white;
+    font-weight:100;
+    font-size:1.2em;
+}
+.container6 span, .container7 span, .container8 span, .container9 span{
+    padding-left:8px;
+}
+.container11 {
+    padding:8px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.container11 img{
+    width:43vw;
+    height:43vw;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.container11 span{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding:4px;
+}
+#show{
+    display:none;
+}
+#loader {
+    background:#9aa5ad;
+    display:flex;
+    height:100vh;
+    justify-content:center;
+    align-items: center;
+}
+#loader img {
+    width:100px;
+}
